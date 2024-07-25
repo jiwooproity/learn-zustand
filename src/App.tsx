@@ -7,7 +7,7 @@ import TextPage from "./page/text-page";
 const App = () => {
   return (
     <div className="app-container">
-      <BrowserRouter>
+      <BrowserRouter basename="/learn-zustand">
         <Navbar />
         <Routes>
           <Route path="/" element={<TextPage />} />
