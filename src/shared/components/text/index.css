@@ -1,0 +1,9 @@
+.input-container > input {
+  width: 200px;
+  padding: 8px;
+  border: none;
+}
+
+.input-container > input:focus {
+  outline: none;
+}
